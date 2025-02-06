@@ -107,25 +107,6 @@ class Calculator1State extends State<Calculator1> {
             child: Text(
               "Груповий коефіцієнт використання: $groupUtilizationCoefficient\n"
               "Ефективна кількість ЕП: $effectiveEquipmentCount",
-              textAlign: TextAlign
-                  .left,
-            ),
-          ),
-          const SizedBox(height: 16),
-          Container(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              "Груповий коефіцієнт використання: $groupUtilizationCoefficient\n"
-              "Ефективна кількість ЕП: $effectiveEquipmentCount",
-              textAlign: TextAlign.left,
-            ),
-          ),
-          const SizedBox(height: 16),
-          Container(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              "Груповий коефіцієнт використання: $groupUtilizationCoefficient\n"
-              "Ефективна кількість ЕП: $effectiveEquipmentCount",
               textAlign: TextAlign.left,
             ),
           ),
