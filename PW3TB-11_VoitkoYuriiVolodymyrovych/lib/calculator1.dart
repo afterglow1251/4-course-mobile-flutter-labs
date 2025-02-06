@@ -97,9 +97,6 @@ class Calculator1State extends State<Calculator1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Розрахунок енергетичної потужності'),
-      ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
